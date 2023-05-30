@@ -27,7 +27,7 @@ export async function OpenAIStream(payload: OpenAIStreamPayload) {
   const decoder = new TextDecoder();
 
   let counter = 0;
-//   console.log("Hello from OpenAIStream", JSON.stringify(payload));
+
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
       headers: {
         "Content-Type": "application/json",
@@ -50,9 +50,9 @@ export async function OpenAIStream(payload: OpenAIStreamPayload) {
 
           try {
             const json = JSON.parse(data);
-            console.log("json", json);
+
             const text = json.choices[0].delta?.content || "";
-            console.log("text", text);
+        
             if (counter < 2 && (text.match(/\n/) || []).length) {
               return;
             }
