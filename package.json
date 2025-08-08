@@ -24,7 +24,7 @@
     "eslint-config-next": "13.4.4",
     "eventsource-parser": "^1.1.2",
     "lucide-react": "^0.224.0",
-    "nanoid": "^4.0.2",
+    "nanoid": "^5.1.5",
     "next": "14.2.30",
     "postcss": "8.4.24",
     "react": "18.2.0",

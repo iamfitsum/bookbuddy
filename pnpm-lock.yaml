@@ -54,8 +54,8 @@ importers:
         specifier: ^0.224.0
         version: 0.224.0(react@18.2.0)
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.1.5
+        version: 5.1.5
       next:
         specifier: 14.2.30
         version: 14.2.30(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -1434,9 +1434,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@4.0.2:
-    resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
-    engines: {node: ^14 || ^16 || >=18}
+  nanoid@5.1.5:
+    resolution: {integrity: sha512-Ir/+ZpE9fDsNH0hQ3C68uyThDXzYcim2EqcZ8zn8Chtt1iylPT9xXJB0kPCnqzgcEGikO9RxSrh63MsmVCU7Fw==}
+    engines: {node: ^18 || >=20}
     hasBin: true
 
   napi-postinstall@0.3.2:
@@ -3505,7 +3505,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  nanoid@4.0.2: {}
+  nanoid@5.1.5: {}
 
   napi-postinstall@0.3.2: {}
 
